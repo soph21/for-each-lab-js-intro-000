@@ -5,3 +5,9 @@ function iterativeLog(array) {
     index++
   })
 }
+
+function iterate(callback) {
+  let array = [1,2]
+  array.forEach(callback)
+  return array
+}
